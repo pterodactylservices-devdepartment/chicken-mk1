@@ -46,6 +46,9 @@ section{padding:70px 6%}
 .card p{font-size:.92rem;flex:1;margin-bottom:14px}
 .card .buy{background:var(--coral);color:#fff;text-align:center;padding:10px;border-radius:30px;font-weight:700;transition:.2s}
 .card .buy:hover{background:var(--teal)}
+.card.soon{border:3px dashed var(--teal);box-shadow:none;text-align:center}
+.card.soon:hover{transform:none}
+.card.soon .soon-note{background:var(--mint);color:var(--plum);padding:10px;border-radius:30px;font-weight:700}
 .band{background:linear-gradient(120deg,var(--teal),#7BE0D2);text-align:center;color:var(--plum)}
 .band h2{font-size:2.2rem}.band p{max-width:560px;margin:10px auto 22px}
 .about{display:flex;gap:40px;align-items:center;justify-content:center;flex-wrap:wrap;max-width:900px;margin:auto}
@@ -86,20 +89,16 @@ footer p{max-width:700px;margin:8px auto}
 <section class="alt" id="pets">
   <div class="title"><span class="pill">🐾 Pets</span><h2>Spoil your best friend</h2></div>
   <div class="grid">
-    <div class="card"><div class="img" style="background:var(--pink)">🦴</div><div class="body"><span class="tag">Dogs</span><h3>Durable Chew Toys</h3><p>Keep tails wagging and furniture safe.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=durable+dog+chew+toys&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card"><div class="img" style="background:var(--mint)">🐱</div><div class="body"><span class="tag">Cats</span><h3>Interactive Cat Toys</h3><p>Playtime your kitty will adore.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=interactive+cat+toys&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card"><div class="img" style="background:#FFF0B8">🛏️</div><div class="body"><span class="tag">Comfort</span><h3>Cozy Pet Beds</h3><p>Plush naps for pups and cats.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=cozy+calming+pet+bed&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card"><div class="img" style="background:#E4DBFF">🦮</div><div class="body"><span class="tag">Walks</span><h3>Harnesses &amp; Leashes</h3><p>Comfy, safe and stylish strolls.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=no+pull+dog+harness&tag=anabaltazar-20">See on Amazon →</a></div></div>
+    <!-- Add new Pets cards below -->
+    <div class="card"><div class="img" style="background:var(--mint)">🐱</div><div class="body"><span class="tag">Cats</span><h3>Greenies Feline Dental Treats</h3><p>Vet-recommended crunchy treats that keep kitty's smile sparkly and fresh!</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://amzn.to/3WZuR5W">See on Amazon →</a></div></div>
   </div>
 </section>
 
 <section id="travel">
   <div class="title"><span class="pill">✈️ Travel</span><h2>Adventure-ready essentials</h2></div>
   <div class="grid">
-    <div class="card" style="background:#fff"><div class="img" style="background:var(--mint)">🧳</div><div class="body"><span class="tag">Luggage</span><h3>Carry-On Suitcases</h3><p>Skip the baggage fees in style.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=carry+on+luggage&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card" style="background:#fff"><div class="img" style="background:var(--pink)">😴</div><div class="body"><span class="tag">Comfort</span><h3>Neck Pillows &amp; Eye Masks</h3><p>Sleep soundly at 30,000 feet.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=travel+neck+pillow+eye+mask&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card" style="background:#fff"><div class="img" style="background:#FFF0B8">📦</div><div class="body"><span class="tag">Organize</span><h3>Packing Cubes</h3><p>Everything in its happy place.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=packing+cubes&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card" style="background:#fff"><div class="img" style="background:#E4DBFF">🔌</div><div class="body"><span class="tag">Tech</span><h3>Universal Travel Adapters</h3><p>Stay charged in any country.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=universal+travel+adapter&tag=anabaltazar-20">See on Amazon →</a></div></div>
+    <!-- Add new Travel cards here (replace the placeholder) -->
+    <div class="card soon" style="background:#fff"><div class="img" style="background:var(--mint)">🧳</div><div class="body"><span class="tag">Travel</span><h3>New finds coming soon ✨</h3><p>Adventure-ready picks are being packed up right now. Check back soon!</p><span class="soon-note">Stay tuned 💌</span></div></div>
   </div>
 </section>
 
@@ -112,20 +111,16 @@ footer p{max-width:700px;margin:8px auto}
 <section class="alt" id="books">
   <div class="title"><span class="pill">📚 Books</span><h2>Cozy up with a good read</h2></div>
   <div class="grid">
-    <div class="card"><div class="img" style="background:#E4DBFF">💫</div><div class="body"><span class="tag">Bestsellers</span><h3>Trending Reads</h3><p>What everyone is talking about.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/best-sellers-books-Amazon/zgbs/books?tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card"><div class="img" style="background:var(--pink)">💕</div><div class="body"><span class="tag">Fiction</span><h3>Feel-Good Fiction</h3><p>Warm, uplifting stories.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=feel+good+fiction+books&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card"><div class="img" style="background:var(--mint)">🧭</div><div class="body"><span class="tag">Wanderlust</span><h3>Travel Guides</h3><p>Plan your next getaway.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=travel+guide+books&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card"><div class="img" style="background:#FFF0B8">🐕</div><div class="body"><span class="tag">Pet Lovers</span><h3>Pet Care &amp; Training Books</h3><p>Be the best pet parent.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=pet+training+books&tag=anabaltazar-20">See on Amazon →</a></div></div>
+    <!-- Add new Books cards here (replace the placeholder) -->
+    <div class="card soon"><div class="img" style="background:#E4DBFF">📖</div><div class="body"><span class="tag">Books</span><h3>New finds coming soon ✨</h3><p>Cozy page-turners are on their way to this shelf. Check back soon!</p><span class="soon-note">Stay tuned 💌</span></div></div>
   </div>
 </section>
 
 <section id="favorites">
   <div class="title"><span class="pill">💖 Favorite Finds</span><h2>Ahna's little obsessions</h2></div>
   <div class="grid">
-    <div class="card" style="background:#fff"><div class="img" style="background:#FFF0B8">🕯️</div><div class="body"><span class="tag">Home</span><h3>Cozy Candles</h3><p>Instant good-mood ambiance.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=cozy+scented+candles&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card" style="background:#fff"><div class="img" style="background:var(--mint)">🥤</div><div class="body"><span class="tag">Everyday</span><h3>Insulated Tumblers</h3><p>Sip happy all day long.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=insulated+tumbler&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card" style="background:#fff"><div class="img" style="background:var(--pink)">🎒</div><div class="body"><span class="tag">Style</span><h3>Cute Tote Bags</h3><p>Carry your day in color.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/s?k=cute+tote+bag&tag=anabaltazar-20">See on Amazon →</a></div></div>
-    <div class="card" style="background:#fff"><div class="img" style="background:#E4DBFF">🌟</div><div class="body"><span class="tag">Deals</span><h3>Today's Top Deals</h3><p>Fresh savings on Amazon.</p><a class="buy" target="_blank" rel="sponsored noopener" href="https://www.amazon.com/gp/goldbox?tag=anabaltazar-20">See on Amazon →</a></div></div>
+    <!-- Add new Favorite Finds cards here (replace the placeholder) -->
+    <div class="card soon" style="background:#fff"><div class="img" style="background:var(--pink)">💖</div><div class="body"><span class="tag">Favorites</span><h3>New finds coming soon ✨</h3><p>Ahna's newest little obsessions are almost ready to share. Check back soon!</p><span class="soon-note">Stay tuned 💌</span></div></div>
   </div>
 </section>
 
