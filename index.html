@@ -69,6 +69,11 @@ footer p{max-width:700px;margin:8px auto}
 .card .img .pin{position:absolute;left:10px;top:10px;display:inline-flex;align-items:center;gap:5px;background:#E60023;color:#fff;font:700 .78rem Nunito,sans-serif;padding:6px 12px;border-radius:20px;text-decoration:none;box-shadow:0 4px 10px rgba(61,44,94,.25);transition:.2s}
 .card .img .pin:hover{transform:scale(1.07);background:#c8001e}
 .card .img .pin svg{width:13px;height:13px;fill:#fff}
+.storefront{padding:24px 6% 0;scroll-margin-top:90px}
+.storefront-panel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 28px;padding:22px clamp(18px,4vw,36px) 28px;background:var(--mint);border:2px solid var(--plum);border-radius:24px}
+.storefront-panel h2{font-size:clamp(1.55rem,4vw,2rem);line-height:1.2}
+.storefront-panel p{margin-top:6px;font-size:.9rem}
+.storefront-panel .btn{max-width:100%;padding-inline:22px;text-align:center}
 </style>
 </head>
 <body>
@@ -86,6 +91,16 @@ footer p{max-width:700px;margin:8px auto}
   <a class="btn" href="#categories">Start exploring 🎉</a>
 </header>
 <svg class="wave" viewBox="0 0 1440 50" preserveAspectRatio="none"><path fill="#FFF7EC" d="M0,25 C240,60 480,0 720,25 C960,50 1200,5 1440,25 L1440,50 L0,50 Z"/></svg>
+
+<section class="storefront" id="amazon-storefront" aria-labelledby="amazon-storefront-title">
+  <div class="storefront-panel">
+    <div>
+      <h2 id="amazon-storefront-title">Amazon Storefront</h2>
+      <p>As an Amazon Associate I earn from qualifying purchases.</p>
+    </div>
+    <a class="btn" href="https://a.co/d/02nzs856" target="_blank" rel="sponsored noopener">Shop AhnaFinds on Amazon →</a>
+  </div>
+</section>
 
 <section id="categories">
   <div class="title"><span class="pill">Shop by joy</span><h2>Pick your happy place</h2><p>Five collections, endless good vibes.</p></div>
